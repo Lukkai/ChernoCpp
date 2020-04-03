@@ -3,8 +3,8 @@
 
 int main()
 {
-	const char* ptr = "Hello";
-	if (ptr)
+	const char* ptr = nullptr;
+	if (ptr) // (ptr != nullptr) nie trzeba bo kiedy  jest nullptr to i tak nie wejdzie do srodka petli
 		Log(ptr);		//jesli moj wskaznik wskazuje na jakis element i nie jest null to wykunuje instrukcje
 	
 	std::cin.get();
