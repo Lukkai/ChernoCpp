@@ -124,7 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Log.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="newMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Log.h" />
