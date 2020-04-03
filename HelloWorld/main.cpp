@@ -1,7 +1,11 @@
 #include <iostream>
+#include "Log.h"
+#include "Math.h"
 
 int main()
 {
-	std::cout << "Hello World!" << std::endl;
+	InitLog();
+	Log("Hello World!");
+	std::cout << Multiply(5, 3) << std::endl;
 	std::cin.get();
 }
