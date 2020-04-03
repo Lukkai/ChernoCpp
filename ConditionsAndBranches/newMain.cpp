@@ -11,5 +11,15 @@ int main()
 	else
 		Log("Ptr is null!");
 	
+	/*        ///to jest to samo co else if, tylko rozbite. tak samo zbilem sobie w 7 linijce instrukcje log w if
+	else
+	{
+		if(ptr)
+		{
+			Log(ptr);
+		}
+	}
+	*/
+
 	std::cin.get();
 }
