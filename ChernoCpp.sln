@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{88FEA8F2-8034-498D-AF6E-BF7837A91827}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorldLog", "HelloWorld\HelloWorld.vcxproj", "{88FEA8F2-8034-498D-AF6E-BF7837A91827}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Variables", "..\ChernoCpp\Variables\Variables.vcxproj", "{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{88FEA8F2-8034-498D-AF6E-BF7837A91827}.Release|x64.Build.0 = Release|x64
 		{88FEA8F2-8034-498D-AF6E-BF7837A91827}.Release|x86.ActiveCfg = Release|Win32
 		{88FEA8F2-8034-498D-AF6E-BF7837A91827}.Release|x86.Build.0 = Release|Win32
+		{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}.Debug|x64.ActiveCfg = Debug|x64
+		{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}.Debug|x64.Build.0 = Debug|x64
+		{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}.Debug|x86.ActiveCfg = Debug|Win32
+		{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}.Debug|x86.Build.0 = Debug|Win32
+		{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}.Release|x64.ActiveCfg = Release|x64
+		{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}.Release|x64.Build.0 = Release|x64
+		{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}.Release|x86.ActiveCfg = Release|Win32
+		{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
