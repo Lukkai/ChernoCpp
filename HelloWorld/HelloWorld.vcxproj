@@ -23,7 +23,7 @@
     <ProjectGuid>{88FEA8F2-8034-498D-AF6E-BF7837A91827}</ProjectGuid>
     <RootNamespace>HelloWorld</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>HelloWorldLog</ProjectName>
+    <ProjectName>3_HelloWorldLog</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
