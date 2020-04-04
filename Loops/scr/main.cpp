@@ -17,5 +17,12 @@ int main(void)
 		Log("Hello World!");
 		i++;
 	}
+
+	do
+	{
+							/*do while wykona sie przynajmniej jeden raz nawet kiedy warunek nie jest spelniony w przeciwienstwie do poprzednich petli*/
+		Log("Hurray! It works at least once!")
+	} while (i < 5);
+
 	std::cin.get();
 }
