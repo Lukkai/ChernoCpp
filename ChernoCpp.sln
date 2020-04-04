@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorldLog", "HelloWorld\HelloWorld.vcxproj", "{88FEA8F2-8034-498D-AF6E-BF7837A91827}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_HelloWorldLog", "HelloWorld\HelloWorld.vcxproj", "{88FEA8F2-8034-498D-AF6E-BF7837A91827}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Variables", "Variables\Variables.vcxproj", "{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Variables", "Variables\Variables.vcxproj", "{0BA60CF3-4DC2-40D6-B4AD-855DA0C5A5C9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Functions.vcxproj", "{292629EA-765C-402D-B6E8-486F8E718B8D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_Functions", "Functions\Functions.vcxproj", "{292629EA-765C-402D-B6E8-486F8E718B8D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Debugger", "Debugger\Debugger.vcxproj", "{6B8C8101-1278-488C-8A66-AD114380DBDF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_Debugger", "Debugger\Debugger.vcxproj", "{6B8C8101-1278-488C-8A66-AD114380DBDF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConditionsAndBranches", "ConditionsAndBranches\ConditionsAndBranches.vcxproj", "{12153B96-3203-431C-97FE-C63173D59817}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_ConditionsAndBranches", "ConditionsAndBranches\ConditionsAndBranches.vcxproj", "{12153B96-3203-431C-97FE-C63173D59817}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loops", "Loops\Loops.vcxproj", "{6DAF96CC-FDAE-4A0D-A9A2-B1FD8E22AB29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{12153B96-3203-431C-97FE-C63173D59817}.Release|x64.Build.0 = Release|x64
 		{12153B96-3203-431C-97FE-C63173D59817}.Release|x86.ActiveCfg = Release|Win32
 		{12153B96-3203-431C-97FE-C63173D59817}.Release|x86.Build.0 = Release|Win32
+		{6DAF96CC-FDAE-4A0D-A9A2-B1FD8E22AB29}.Debug|x64.ActiveCfg = Debug|x64
+		{6DAF96CC-FDAE-4A0D-A9A2-B1FD8E22AB29}.Debug|x64.Build.0 = Debug|x64
+		{6DAF96CC-FDAE-4A0D-A9A2-B1FD8E22AB29}.Debug|x86.ActiveCfg = Debug|Win32
+		{6DAF96CC-FDAE-4A0D-A9A2-B1FD8E22AB29}.Debug|x86.Build.0 = Debug|Win32
+		{6DAF96CC-FDAE-4A0D-A9A2-B1FD8E22AB29}.Release|x64.ActiveCfg = Release|x64
+		{6DAF96CC-FDAE-4A0D-A9A2-B1FD8E22AB29}.Release|x64.Build.0 = Release|x64
+		{6DAF96CC-FDAE-4A0D-A9A2-B1FD8E22AB29}.Release|x86.ActiveCfg = Release|Win32
+		{6DAF96CC-FDAE-4A0D-A9A2-B1FD8E22AB29}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
