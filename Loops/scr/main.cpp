@@ -3,14 +3,19 @@
 
 int main(void)
 {
+	
+	for (int i = 0; i < 5; i++)
+	{
+		Log("Hello World!");
+	}
+
+	Log("===================================");
+	
 	int i = 0;
-	bool condition = true;
-	for (; condition;)
+	while (i < 5)
 	{
 		Log("Hello World!");
 		i++;
-		if (!(i < 5))
-			condition = false;	//jesli i jest juz wieksze niz 5 to warunek petli nie jest spelniony
 	}
 	std::cin.get();
 }
