@@ -58,9 +58,8 @@ int main()
 	/*Entity e;
 	e.x = 2;
 	e.y = 3;*/
-
-	//after x and y being static its better to refere those entity members this way
-	/*
+	
+	/* //after x and y being static its better to refere those entity members this way
 	Entity e;
 	Entity::x = 2;
 	Entity::y = 3;
