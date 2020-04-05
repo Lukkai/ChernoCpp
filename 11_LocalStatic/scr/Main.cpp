@@ -18,7 +18,7 @@ public:
 Singleton* Singleton::s_Instance = nullptr; //i have to declare it using this method to have an actual instance of my object
  */
 
-//another way of doing it statically is
+//another way of doing it statically is by reference
 class Singleton		//creating a singleton class to use it staticly in an alternative way
 {
 public:
