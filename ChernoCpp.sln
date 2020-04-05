@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_StaticInClasses", "10_St
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_LocalStatic", "11_LocalStatic\11_LocalStatic.vcxproj", "{E04E0470-E64D-4D38-9963-4DDBD9C7D887}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_Constructors", "12_Constructors\12_Constructors.vcxproj", "{63F2635D-6095-45C7-B82C-AD2C28E3FE57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{E04E0470-E64D-4D38-9963-4DDBD9C7D887}.Release|x64.Build.0 = Release|x64
 		{E04E0470-E64D-4D38-9963-4DDBD9C7D887}.Release|x86.ActiveCfg = Release|Win32
 		{E04E0470-E64D-4D38-9963-4DDBD9C7D887}.Release|x86.Build.0 = Release|Win32
+		{63F2635D-6095-45C7-B82C-AD2C28E3FE57}.Debug|x64.ActiveCfg = Debug|x64
+		{63F2635D-6095-45C7-B82C-AD2C28E3FE57}.Debug|x64.Build.0 = Debug|x64
+		{63F2635D-6095-45C7-B82C-AD2C28E3FE57}.Debug|x86.ActiveCfg = Debug|Win32
+		{63F2635D-6095-45C7-B82C-AD2C28E3FE57}.Debug|x86.Build.0 = Debug|Win32
+		{63F2635D-6095-45C7-B82C-AD2C28E3FE57}.Release|x64.ActiveCfg = Release|x64
+		{63F2635D-6095-45C7-B82C-AD2C28E3FE57}.Release|x64.Build.0 = Release|x64
+		{63F2635D-6095-45C7-B82C-AD2C28E3FE57}.Release|x86.ActiveCfg = Release|Win32
+		{63F2635D-6095-45C7-B82C-AD2C28E3FE57}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
