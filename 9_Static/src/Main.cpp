@@ -1,5 +1,4 @@
 #include <iostream>
-#include "Log.h"
 
 class Log
 {
@@ -18,19 +17,19 @@ public:
 	void Error(const char* message)
 	{
 		if (m_LogLevel >= LogLevelError)
-		std::cout << "[ERROR]: " << message << std::endl;
+			std::cout << "[ERROR]: " << message << std::endl;
 	}
 
 	void Warn(const char* message)
 	{
 		if (m_LogLevel >= LogLevelWarning)
-		std::cout << "[WARNING]: " << message << std::endl;
+			std::cout << "[WARNING]: " << message << std::endl;
 	}
 
 	void Info(const char* message)
 	{
 		if (m_LogLevel >= LogLevelInfo)
-		std::cout << "[INFO]: " << message << std::endl;
+			std::cout << "[INFO]: " << message << std::endl;
 	}
 };
 
