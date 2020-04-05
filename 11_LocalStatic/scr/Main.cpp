@@ -19,7 +19,7 @@ void Function()
 int main(void)
 {
 	Function();
-	int i = 10; //examplary issue with i beibng accessible from anywhere
+	i = 10; //examplary issue with i beibng accessible from anywhere
 	Function();
 	Function();
 	Function();
