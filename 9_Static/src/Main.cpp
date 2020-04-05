@@ -1,45 +1,21 @@
 #include <iostream>
 
-class Log
+//int s_Variable = 10;  //jesli w static.cpp mam zmienna static o takiej samej nazwie, to ona nie ma wplywu na wartosc tej zmiennej w tym pliku. 
+//int s_Variable = 10; //jesli nie bylaby static w innym pliku projektu to bedzie blad linkowania, bo pojawia sie dwie takie same zmienne w projekcie ktore sie na siebie nakladaja i linker sie gubi jaka zmienna brac pod uwage
+//extern int s_Variable;  //jesli nie jest przypisane w moim pliku, to bedzie szukac w innym pliku projektu tej zmiennej i jej wartosci
+
+extern void Function(); //jesli w static.cpp mam taka sama funkcje ktora nie jest static to mam blad linkowania
+//kiedy mowie ze funkcja jest extern to nie moge wtedy w tym pliku ja definiowac, nie moge nic jej przypisac
+
+/* void Function()//jesli nie mowie ze funckja znajduje sie w innym pliku, a posiadam taka sama funkcjew tym pliku, ktora nie jest static, to bedzie blad linkowania
 {
-public:
-	const int LogLevelError = 0;
-	const int LogLevelWarning = 1;
-	const int LogLevelInfo = 2;
-private:		// class member m_LogLevel, to not take local function variables by mistake as class members
-	int m_LogLevel = LogLevelInfo; //set loglevel to info by default
-public:
-	void SetLevel(int level)
-	{
-		m_LogLevel = level;
-	}
 
-	void Error(const char* message)
-	{
-		if (m_LogLevel >= LogLevelError)
-			std::cout << "[ERROR]: " << message << std::endl;
-	}
-
-	void Warn(const char* message)
-	{
-		if (m_LogLevel >= LogLevelWarning)
-			std::cout << "[WARNING]: " << message << std::endl;
-	}
-
-	void Info(const char* message)
-	{
-		if (m_LogLevel >= LogLevelInfo)
-			std::cout << "[INFO]: " << message << std::endl;
-	}
-};
+} */
 
 int main(void)
 {
-	Log log;
-	//log.SetLevel(log.LogLevelWarning); //loglevelwarning set, so no logs about infos
-	log.SetLevel(log.LogLevelError); //only level error logs, so no warnings and infos
-	log.Warn("Hello!");
-	log.Error("Hello!");
-	log.Info("Hello!");
+
+//	std::cout << s_Variable << std::endl;
+	Function(); //jesli extern a w innym pliku nie jest static to wykona funkcje z tamtego modulu
 	std::cin.get();
 }
