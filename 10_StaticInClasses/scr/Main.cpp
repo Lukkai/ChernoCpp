@@ -52,6 +52,7 @@ struct Entity
 
 int Entity::x; //this way we define those variables where they are static. we have to define them somewhere
 int Entity::y; //after they're defined the linker can link them to appropriate variables
+//Every variable declared as static inside a class must be declared on the translation unit as well
 
 int main()
 {
