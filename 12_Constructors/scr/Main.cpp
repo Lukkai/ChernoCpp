@@ -44,7 +44,7 @@ public:
 int main(void)
 {
 	Log::Write();
-	Log l;
+	//Log l;
 
 	Entity e; //non parametrical constructor with 0 initiated
 	//e.Init();
