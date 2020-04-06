@@ -31,22 +31,11 @@ public:
 	}
 };
 
-class Log
-{
-	/*private:
-		Log() {}*/ //if defined a constructor by us in private field we get an error cause i wont be able to access the constructor
-public:
-	//Log() = delete; //if i dont want to have a default constructor made by compiler
-	static void Write()
-	{
-
-	}
-};
-
 void Function()
 {
 	Entity e;
 	e.Print();
+	//e.~Entity(); //calling out destructor manually
 }
 
 int main(void)
